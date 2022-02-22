@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+   integrity="sha512-HKSfgLBL+xu6dm/I13z4xhLSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxTlely+B+xFAmJKVSTbpM/CuL7qx08w="
+   crossorigin="anonymous"
+ />
+            <title>StockCare</title>
+            <link rel="stylesheet" href="style.css" />
+            </head>
+            <body>
+            <div class="container">
+            <div class="forms-container">
+            <div class="gallery">
+                <img src="https://media-exp1.licdn.com/dms/image/C4E1BAQETkMuf6RWptQ/company-background_10000/0/1593870889167?e=2159024400&v=beta&t=iR6Bzp59rZPeucyOpbS0EiVf3jRB_ypPpSvhrCj520E" alt="Forest" width="700" height="650">
+            </div>
+            <div class="logo">
+                <img src="file:///C:\Users\Jakkaphat Nookong\Downloads\analysis.png" width="30" height="30">
+            </div>
+            <div class="icon">
+                <h2 class="stockcare">Stock</h2><h2 class="stockcare1">Care</h2>
+            </div>
+                    <div class="menu">
+                        <a class="buttonmenu">
+                            <button type="button" class="toggle-btn" >Sign Up</button>
+                            <a href="stocksignup.html"><button type="button" class="toggle-btn" >Log In</button></a>
+                        </div>
+                    </div>
+                </div>
+    <div class="signuplogin">
+        <form action="#" class="sign-up-form">
+            <h1 class="title">Sign Up</h1>
+            <p class="subtitle">Please fill in the information</p>
+            <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="First Name" required />
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="text" placeholder="Last Name" />
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="text" placeholder="Email" />
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="text" placeholder="Password"  />
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="text" placeholder="Confirm Password" />
+            </div> 
+            <input type="submit" class="btn solid" value="Sign Up" />
+        </form>
+      </div>
+   </div>
+
+  <div class="panels-container"></div>
+ </div>
+
+ <script> 
+    var x = document.getElementById("log-in-form") 
+    var y = document.getElementById("sign-up-form")
+    var z = document.getElementById("menu")
+
+    function loginsignup(){
+        x.style.left = "-400px"
+        y.style.left = "50px"
+    }
+    
+    function signuplogin(){
+        x.style.right = "50px"
+        y.style.right = "50px"
+    }
+        
+ </script>
+ </body>
+</html>
